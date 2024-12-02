@@ -1,22 +1,34 @@
-# ApartmentBookingSystem
-A Point of Sales (POS) system for Pythonia, a serviced apartment company managing three buildings—Swan, Goose, and Duck. This system allows booking managers to process apartment bookings (1-7 nights), manage supplementary item orders, and generate receipts for guests.
+# Pythonia POS System - Assignment 1
+ The project focuses on developing a **Point of Sales (POS) system** for a serviced apartment company called Pythonia.
 
-**Pythonia POS System**
-Overview
-This project is a Point of Sales (POS) system for Pythonia, a serviced apartment company managing three buildings: Swan, Goose, and Duck. The system enables booking managers to:
+## Overview
+This project is a Python-based POS system for managing bookings, supplementary services, and reward points for apartment guests. The assignment emphasizes core programming concepts like data structures, control structures, and input/output handling.
 
-Process apartment bookings for short stays (1-7 nights).
-Add optional supplementary items to bookings.
-Generate detailed receipts for guests.
-Features
-Apartment Bookings: Book 1 apartment unit per reservation with nightly rates.
-Supplementary Items: Add optional items like breakfast or parking during bookings.
-Guest Rewards: Earn reward points for each booking based on total cost.
-Menu-Driven Interface: Includes options for managing apartments, guests, and supplementary items.
-Validation: Ensures correct inputs for bookings and item management.
-Requirements
-Python (no external libraries other than sys).
-How to Use
-Clone or download the repository.
-Run the program file using Python.
-Follow the menu options to manage bookings, apartments, and supplementary items.
+### Key Functionalities
+1. **Booking System**:
+   - Manage apartment bookings for up to 7 nights.
+   - Automatically calculate total costs and reward points.
+
+2. **Supplementary Services** (Part 2 & 3):
+   - Allow guests to book additional services like car parking or breakfast.
+   - Validate inputs for supplementary services.
+
+3. **Menu-driven Application**:
+   - Provide an interactive menu for users to manage bookings, view available apartments, and more.
+
+### Project Structure
+└── README.md # Documentation for the project
+
+### Steps to Run
+1. Clone this repository.
+2. Open the Python script file `ProgFunA1_<Your Student ID>.py`.
+3. Run the script in a Python interpreter.
+4. Follow the menu-driven prompts to interact with the program.
+
+### Tools and Libraries
+- Python (Standard Libraries)
+- Text editor/IDE (e.g., PyCharm, VSCode)
+
+
+
+
